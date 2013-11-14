@@ -13,7 +13,7 @@ app.get("/hello.txt", function(req, res)
 */
 app.get("*", function(req, res)
 {
-	res.send("Hello World.");
+	res.send("<html><head><title>Node and Express Test</title></head><body><h1>Hello World</h1></body></html>");
 });
 
 
